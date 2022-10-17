@@ -35,5 +35,8 @@ export class BillingComponent implements OnInit {
     )
    
   }
+  onProceedtoPayment() {
+    console.log(this.billingForm.value);
+  }
 
 }

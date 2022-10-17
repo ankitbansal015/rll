@@ -36,5 +36,7 @@ export class CheckoutComponent implements OnInit {
     )
    
   }
-
+  onSubmit() {
+    console.log(this.checkoutForm.value);
+  }
 }
